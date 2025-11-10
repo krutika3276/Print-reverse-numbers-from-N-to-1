@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+
+    printf("Enter a number: ");
+    scanf("%d", &N);
+
+    printf("Numbers from %d to 1 are:\n", N);
+
+    while(N >= 1) {
+        printf("%d ", N);
+        N--; 
+    }
+
+    return 0;
+}
